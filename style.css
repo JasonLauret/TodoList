@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+body {
+    background-color: rgb(255, 230, 176);
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    text-align: center;
+    background-color: white;
+    margin: 50px 100px;
+    padding: 50px 0px 50px 0px;
+    border: none;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+}
+form input {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: 1px solid rgb(255, 230, 176);
+    background-color: rgba(255, 255, 255, 0.746);
+}
+form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    margin-top: 20px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(255, 230, 176);
+    cursor: pointer;
+}
+form button:hover {
+    color: rgb(255, 230, 176);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 230, 176);
+    cursor: pointer;
+}
+.todo-liste h2 {
+    text-decoration:underline;
+    font-size: 35px;
+    margin: 30px 100px;
+}
+.todo {
+    border: 1px solid black;
+    background-color: white;
+    padding: 15px 30px;
+    margin: 15px 100px;
+}
+li.newItem{
+    list-style: decimal;
+}
+.voir, .supprimer {
+    pointer-events: none;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+/* .fall {
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+} */
